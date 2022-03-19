@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Waldo</title>
+  </head>
+  <body>
+    <div class="home-page">
+      <h1 class="home-page__title">Where's Waldo</h1>
+      <h3 class="home-page__paragraph">Choose a level</h3>
+      <div class="home-page__levels">
+        <div class="home-page__level">
+          <p class="home-page__level-title">Ski Trip</p>
+          <img src="../src/Ski_Trip.jpg" alt="" class="home-page__img" />
+        </div>
+        <div class="home-page__level">
+          <p class="home-page__level-title">The Moon</p>
+          <img src="../src/The_Moon.jpg" alt="" class="home-page__img" />
+        </div>
+        <div class="home-page__level">
+          <p class="home-page__level-title">The Race Track</p>
+          <img src="../src/The_Race_Track.jpg" alt="" class="home-page__img" />
+        </div>
+      </div>
+    </div>
+
+    <div class="levels">
+      <h1 class="levels__title">Level 1: Ski Trip</h1>
+      <div class="levels__container">
+        <div class="levels__char-container">
+          <div class="levels__char">
+            <img
+              src="../src/waldo.png"
+              alt=""
+              class="levels__char-img"
+              id="waldo"
+            />
+          </div>
+          <div class="levels__char">
+            <img
+              src="../src/wenda.png"
+              alt=""
+              class="levels__char-img"
+              id="wenda"
+            />
+          </div>
+          <div class="levels__char">
+            <img
+              src="../src/wizad.png"
+              alt=""
+              class="levels__char-img"
+              id="wizard"
+            />
+          </div>
+          <div class="levels__char">
+            <img
+              src="../src/odlaw.png"
+              alt=""
+              class="levels__char-img"
+              id="odlaw"
+            />
+          </div>
+          <p class="levles__timer">00:00</p>
+        </div>
+        <div class="levels__img-container">
+          <!-- <div class="circle"></div> -->
+          <img src="../src/Ski_Trip.jpg" alt="" class="levels__img" />
+        </div>
+      </div>
+    </div>
+
+    <div class="end-screen">
+      <h2 class="end-screen__text">Good job! Tell us your name</h2>
+      <form action="" class="end-screen__form">
+        <input
+          type="text"
+          name="fname"
+          placeholder="exp. John"
+          class="end-screen__input"
+        /><br />
+        <input type="submit" value="Submit" class="end-screen__btn" />
+      </form>
+    </div>
+    <div class="end-screen__highscores"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
