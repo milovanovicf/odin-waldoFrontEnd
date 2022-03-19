@@ -1,0 +1,1 @@
+const clear = require("./clear");
